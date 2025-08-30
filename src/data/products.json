@@ -1,0 +1,533 @@
+[
+  {
+    "id": "i61y8k",
+    "name": "Spaceman SP40000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "16.99",
+    "stock": 1,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fp%2Fspaceman_sp40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "sub9e6",
+    "name": "Spaceman Nebula 25K Plus Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "15.99",
+    "stock": 38,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fp%2Fspaceman_nebula_25k_plus_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "tcmmty",
+    "name": "Pillow Talk Nic Control NC40K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "13.99",
+    "stock": 8,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fp%2Fi%2Fpillow_talk_nic_control_40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "dw5mes",
+    "name": "Pillow Talk IC40000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 29,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fp%2Fi%2Fpillow_talk_ic40000_disposable_-_default_1.png&w=640&q=75"
+  },
+  {
+    "id": "r22pvd",
+    "name": "Lost Mary MO20000 Pro Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "16.99",
+    "stock": 2,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fl%2Fo%2Flost_mary_mo20000_pro_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "7k6pgj",
+    "name": "FLUM UT Bar Pro 25000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "19.99",
+    "stock": 50,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fu%2Ft%2Futbar_pro_25k_disposable_-_blue_razz_icy.png&w=640&q=75"
+  },
+  {
+    "id": "a519on",
+    "name": "Adjust MySweet 40K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 43,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fd%2Fadjust_mysweet_40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "4g69fi",
+    "name": "Adjust MyCool 40K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 50,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fd%2Fadjust_mycool_40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "mxuntm",
+    "name": "Geek Bar Pulse X 25K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "39.99",
+    "stock": 27,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fg%2Fe%2Fgeek_bar_pulse_x_25k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "hgi0d6",
+    "name": "OXBAR Ice-Nic Control 35K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "21.99",
+    "stock": 12,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fo%2Fx%2Foxbar_x_pod_juice_ice-nic_control_35k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "otduo9",
+    "name": "OXBAR x Pod Juice SVOPP 30K Disposable Pod",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fo%2Fx%2Foxbar_x_pod_juice_svopp_30k_disposable_pod_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "g1uck7",
+    "name": "OXBAR x Pod Juice Magic Maze 2.0 30K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "21.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fo%2Fx%2Foxbar_x_pod_juice_magic_maze_2.0_30k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "rfivhn",
+    "name": "Modus x KadoBar KB10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 4,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fm%2Fo%2Fmodus_x_kadobar_kb10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "gou3l5",
+    "name": "Ronaldinho 10 15K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 32,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fr%2Fo%2Fronaldinho_10_15k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "u70l4g",
+    "name": "Elux CYBEROVER 18000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 24,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fe%2Fl%2Felux_cyberover_18000_disposable_-_default_1.png&w=640&q=75"
+  },
+  {
+    "id": "71qhf0",
+    "name": "Mystery Disposable Vape Pack",
+    "category": "Disposable",
+    "description": "",
+    "price": "39.99",
+    "stock": 10,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fd%2Fi%2Fdisposables_mystery_pack_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "it320o",
+    "name": "SPACEMAN PRISM 20K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "13.99",
+    "stock": 25,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fm%2Fsmok_spaceman_prism_20k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "93757z",
+    "name": "SPACEMAN CURVE 18K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fp%2Fspaceman_curve_18l_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "gtai9l",
+    "name": "SPACEMAN 10K PRO Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "11.99",
+    "stock": 43,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fp%2Fspaceman_10k_pro_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "11qpwh",
+    "name": "Digiflavor x Geek Bar LUSH 20K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "21.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fd%2Fi%2Fdigiflavor_x_geek_bar_lush_20000_disposable_-_default_1.png&w=640&q=75"
+  },
+  {
+    "id": "k1rcz1",
+    "name": "WOOFR 15000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "5.99",
+    "stock": 35,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fw%2Fo%2Fwoofr_15000_disposable_-_default_1.png&w=640&q=75"
+  },
+  {
+    "id": "2um588",
+    "name": "Snowwolf Smart HD 15K Limited Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "6.99",
+    "stock": 21,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fn%2Fsnowwolf_smart_hd_15k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "i23yvt",
+    "name": "SMOK Priv Bar Turbo 15K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 1,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fm%2Fsmok_priv_bar_turbo_15000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "2fx6tz",
+    "name": "Lost Mary MT15000 Turbo Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "15.99",
+    "stock": 46,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fl%2Fo%2Flost_mary_mt15000_turbo_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "4yghmg",
+    "name": "VOZOL Neon 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 1,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fv%2Fo%2Fvozol_neon_10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "qqqtsl",
+    "name": "Flum Gimi 8500 Smart Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 34,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Ff%2Fl%2Fflum_gimi_8500_smart_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "j2oh97",
+    "name": "SOFI X9000 Smart Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 21,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fo%2Fsofi_x9000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "cpevye",
+    "name": "Geek Bar Pulse 15000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "29.99",
+    "stock": 12,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fg%2Fe%2Fgeek_bar_pulse_15000_disposable_-_default_1.png&w=640&q=75"
+  },
+  {
+    "id": "mrpmjq",
+    "name": "Lost Vape Orion Bar 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 33,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fl%2Fo%2Flost_vape_orion_bar_10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "jx1fn7",
+    "name": "iJoy Captain 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 45,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fi%2Fj%2Fijoy_captain_10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "l6d3d7",
+    "name": "FLUM UT BAR 6000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 32,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fu%2Ft%2Futbar_6000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "6emo4x",
+    "name": "Horizon Binaries SV15000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 9,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fb%2Fi%2Fbinaries_sv15000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "24kvy9",
+    "name": "Freemax FRIOBAR MX 10K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "11.99",
+    "stock": 2,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Ff%2Fr%2Ffreemax_friobar_mx_10k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "hacge0",
+    "name": "Snowwolf Easy Smart EA9000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "5.99",
+    "stock": 13,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fn%2Fsnowwolf_easy_smart_ea9000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "0zzjuq",
+    "name": "Sigelei Smart AC10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 39,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fi%2Fsigelei_smart_ac10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "oh84so",
+    "name": "SWFT ICON 7500 Smart Display Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 44,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fw%2Fswft_icon_7500_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "bdoxon",
+    "name": "Snoopy Smoke Extra Tank 2 15000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 18,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fn%2Fsnoopy_smok_extra_tank_2_15000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "mgfv8n",
+    "name": "VOZOL Gear 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "7.99",
+    "stock": 42,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fv%2Fo%2Fvozol_gear_10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "aipfkk",
+    "name": "VIHO Turbo 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 23,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fv%2Fi%2Fviho_turbo_10000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "mh7vdy",
+    "name": "Geek Bar Meloso MAX 9000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 27,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fg%2Fe%2Fgeek_bar_meloso_max_9000_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "d48gqf",
+    "name": "ELF VPR 7000 Ultra Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fe%2Fl%2Felf_vpr_7000_ultra_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "ucqpv2",
+    "name": "KROS Unlimited 6000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "13.99",
+    "stock": 13,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fk%2Fr%2Fkros_unlimited_6000_disposable_-_all_flavors.png&w=640&q=75"
+  },
+  {
+    "id": "kakpib",
+    "name": "Pod Pocket 7500 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 26,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fp%2Fo%2Fpod_pocket_7500_disposable_-_all_flavors.png&w=640&q=75"
+  },
+  {
+    "id": "kh42d3",
+    "name": "FreeMaX FRIOBAR DB7000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 40,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Ff%2Fr%2Ffreemax_friobar_db7000_disposable_-_all_flavors.png&w=640&q=75"
+  },
+  {
+    "id": "hy34mp",
+    "name": "SMOK Novo Bar AL6000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fs%2Fm%2Fsmok_novo_bar_al6000_disposable_-_all_colors.png&w=640&q=75"
+  },
+  {
+    "id": "3iibri",
+    "name": "Flum Pebble 6000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "12.99",
+    "stock": 16,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Ff%2Fl%2Fflum_pebble_6000_disposable_-_all_flavors.png&w=640&q=75"
+  },
+  {
+    "id": "61cx7u",
+    "name": "7 Daze OHMLET 7000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 26,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2F7%2F_%2F7_daze_ohmlet_7000_disposable_-_all_colors.png&w=640&q=75"
+  },
+  {
+    "id": "txqkgi",
+    "name": "Lost Vape Orion BAR 7500 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "11.99",
+    "stock": 37,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fl%2Fo%2Flost_vape_orion_bar_7500_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "fceya8",
+    "name": "7 Daze EGGE 3000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "9.99",
+    "stock": 40,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2F7%2F_%2F7_daze_-_egge_-_disposables_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "cuxrot",
+    "name": "Pillow Talk Nic Control NC40K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "13.99",
+    "stock": 3,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fp%2Fi%2Fpillow_talk_nic_control_40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "g9y8xi",
+    "name": "Adjust MySweet 40K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 39,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fd%2Fadjust_mysweet_40k_disposable_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "n1n1bn",
+    "name": "OXBAR x Pod Juice SVOPP 30K Disposable Pod",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 6,
+    "image": "https://www.elementvape.com/_next/image?url=https%3A%2F%2Fadmin.elementvape.com%2Fmedia%2Fcatalog%2Fproduct%2Fo%2Fx%2Foxbar_x_pod_juice_svopp_30k_disposable_pod_-_default.png&w=640&q=75"
+  },
+  {
+    "id": "d0c0r5",
+    "name": "Pillow Talk IC40000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 1,
+    "image": ""
+  },
+  {
+    "id": "8cpe89",
+    "name": "SPACEMAN CURVE 18K Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 28,
+    "image": ""
+  },
+  {
+    "id": "06otbh",
+    "name": "Snowwolf Easy Smart EA9000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "5.99",
+    "stock": 17,
+    "image": ""
+  },
+  {
+    "id": "ogtwqb",
+    "name": "VOZOL Gear 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "7.99",
+    "stock": 5,
+    "image": ""
+  },
+  {
+    "id": "ab7blf",
+    "name": "VIHO Turbo 10000 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "14.99",
+    "stock": 13,
+    "image": ""
+  },
+  {
+    "id": "u5jscp",
+    "name": "Lost Vape Orion BAR 7500 Disposable",
+    "category": "Disposable",
+    "description": "",
+    "price": "11.99",
+    "stock": 37,
+    "image": ""
+  },
+  {
+    "id": "0kyyc4",
+    "name": "Mystery Disposable Vape Pack",
+    "category": "Disposable",
+    "description": "",
+    "price": "39.99",
+    "stock": 48,
+    "image": ""
+  }
+]

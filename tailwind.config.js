@@ -29,6 +29,16 @@ export default {
         'float': 'float 3s ease-in-out infinite',
         'scan-line': 'scan-line 2s linear infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
+        'grid-float': 'grid-float 20s ease-in-out infinite',
+        'chromatic-aberration-1': 'chromatic-aberration-1 2s ease-in-out infinite',
+        'chromatic-aberration-2': 'chromatic-aberration-2 2s ease-in-out infinite',
+        'glitch-text': 'glitch-text 3s infinite',
+        'holographic-shift': 'holographic-shift 3s ease-in-out infinite',
+        'neon-border-rotate': 'neon-border-rotate 3s linear infinite',
+        'floating-particles': 'floating-particles 20s linear infinite',
+        'grid-pulse': 'grid-pulse 4s ease-in-out infinite',
+        'bounce-slow': 'bounce 3s infinite',
+        'pulse-slow': 'pulse 3s infinite',
       },
       keyframes: {
         'neon-pulse': {

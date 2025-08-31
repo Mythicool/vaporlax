@@ -32,7 +32,7 @@ body {
   position: relative;
 }
 
-/* VHS Grid Background */
+/* Enhanced VHS Grid Background with Animated Elements */
 body::before {
   content: '';
   position: fixed;
@@ -41,26 +41,37 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(rgba(1, 205, 254, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(1, 205, 254, 0.03) 1px, transparent 1px);
-  background-size: 50px 50px;
+    linear-gradient(rgba(1, 205, 254, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(1, 205, 254, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 20% 80%, rgba(255, 113, 206, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(185, 103, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(5, 255, 161, 0.08) 0%, transparent 50%);
+  background-size: 50px 50px, 50px 50px, 800px 800px, 600px 600px, 400px 400px;
+  animation: grid-float 20s ease-in-out infinite;
   pointer-events: none;
   z-index: -1;
 }
 
-/* Scan Line Effect */
+/* Enhanced Scan Line Effect */
 body::after {
   content: '';
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
-  animation: scan-line 3s linear infinite;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(1, 205, 254, 0.8), 
+    rgba(255, 113, 206, 0.6), 
+    rgba(1, 205, 254, 0.8), 
+    transparent
+  );
+  animation: scan-line 4s linear infinite;
   pointer-events: none;
   z-index: 1000;
-  opacity: 0.3;
+  opacity: 0.4;
+  box-shadow: 0 0 20px rgba(1, 205, 254, 0.5);
 }
 
 /* Custom Scrollbar */
@@ -208,6 +219,252 @@ body::after {
   80%, 100% { content: '...'; }
 }
 
+/* Advanced Vaporwave Effects */
+.chromatic-text {
+  position: relative;
+  color: white;
+}
+
+.chromatic-text::before,
+.chromatic-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.chromatic-text::before {
+  color: var(--neon-cyan);
+  animation: chromatic-aberration-1 2s ease-in-out infinite;
+}
+
+.chromatic-text::after {
+  color: var(--neon-pink);
+  animation: chromatic-aberration-2 2s ease-in-out infinite;
+}
+
+.glitch-text {
+  position: relative;
+  color: white;
+  animation: glitch-text 3s infinite;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch-text::before {
+  color: var(--neon-cyan);
+  animation: glitch-1 0.3s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+  color: var(--neon-pink);
+  animation: glitch-2 0.3s infinite linear alternate-reverse;
+}
+
+.holographic {
+  background: linear-gradient(45deg, 
+    var(--neon-pink), 
+    var(--neon-cyan), 
+    var(--neon-purple), 
+    var(--neon-teal),
+    var(--neon-pink)
+  );
+  background-size: 400% 400%;
+  animation: holographic-shift 3s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.neon-border-animated {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(var(--vapor-dark-gray), var(--vapor-dark-gray)) padding-box,
+              linear-gradient(45deg, var(--neon-pink), var(--neon-cyan), var(--neon-purple)) border-box;
+  animation: neon-border-rotate 3s linear infinite;
+}
+
+.floating-particles {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-particles::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, var(--neon-cyan), transparent),
+    radial-gradient(2px 2px at 40px 70px, var(--neon-pink), transparent),
+    radial-gradient(1px 1px at 90px 40px, var(--neon-purple), transparent),
+    radial-gradient(1px 1px at 130px 80px, var(--neon-teal), transparent);
+  background-repeat: repeat;
+  background-size: 200px 100px;
+  animation: floating-particles 20s linear infinite;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.retro-grid {
+  background-image: 
+    linear-gradient(rgba(1, 205, 254, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(1, 205, 254, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  position: relative;
+}
+
+.retro-grid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, 
+    transparent 0%, 
+    rgba(1, 205, 254, 0.05) 50%, 
+    transparent 100%
+  );
+  animation: grid-pulse 4s ease-in-out infinite;
+}
+
+/* Enhanced Keyframe Animations */
+@keyframes grid-float {
+  0%, 100% { 
+    background-position: 0% 0%, 0% 0%, 0% 0%, 100% 100%, 50% 50%; 
+  }
+  50% { 
+    background-position: 100% 100%, 100% 100%, 50% 50%, 0% 0%, 100% 0%; 
+  }
+}
+
+@keyframes chromatic-aberration-1 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+}
+
+@keyframes chromatic-aberration-2 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(2px, -2px); }
+  40% { transform: translate(2px, 2px); }
+  60% { transform: translate(-2px, -2px); }
+  80% { transform: translate(-2px, 2px); }
+}
+
+@keyframes glitch-text {
+  0%, 90%, 100% { transform: translate(0); }
+  10% { transform: translate(-2px, -1px); }
+  20% { transform: translate(2px, 1px); }
+  30% { transform: translate(-1px, 2px); }
+  40% { transform: translate(1px, -2px); }
+  50% { transform: translate(-2px, 1px); }
+  60% { transform: translate(2px, -1px); }
+  70% { transform: translate(-1px, -2px); }
+  80% { transform: translate(1px, 2px); }
+}
+
+@keyframes glitch-1 {
+  0% { clip-path: inset(40% 0 61% 0); }
+  20% { clip-path: inset(92% 0 1% 0); }
+  40% { clip-path: inset(43% 0 1% 0); }
+  60% { clip-path: inset(25% 0 58% 0); }
+  80% { clip-path: inset(54% 0 7% 0); }
+  100% { clip-path: inset(58% 0 43% 0); }
+}
+
+@keyframes glitch-2 {
+  0% { clip-path: inset(25% 0 58% 0); }
+  20% { clip-path: inset(54% 0 7% 0); }
+  40% { clip-path: inset(58% 0 43% 0); }
+  60% { clip-path: inset(40% 0 61% 0); }
+  80% { clip-path: inset(92% 0 1% 0); }
+  100% { clip-path: inset(43% 0 1% 0); }
+}
+
+@keyframes holographic-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes neon-border-rotate {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes floating-particles {
+  0% { transform: translateY(0px) translateX(0px); }
+  33% { transform: translateY(-10px) translateX(10px); }
+  66% { transform: translateY(5px) translateX(-5px); }
+  100% { transform: translateY(0px) translateX(0px); }
+}
+
+@keyframes grid-pulse {
+  0%, 100% { opacity: 0.05; }
+  50% { opacity: 0.15; }
+}
+
+@keyframes scan-line {
+  0% { transform: translateY(-100vh); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Enhanced Product Card Hover Effects */
+.product-card-enhanced {
+  position: relative;
+  background: rgba(26, 26, 26, 0.9);
+  border: 1px solid var(--neon-cyan);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  backdrop-filter: blur(10px);
+}
+
+.product-card-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, 
+    transparent, 
+    rgba(1, 205, 254, 0.1), 
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.product-card-enhanced:hover::before {
+  transform: translateX(100%);
+}
+
+.product-card-enhanced:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: var(--neon-pink);
+  box-shadow: 
+    0 20px 40px rgba(255, 113, 206, 0.3),
+    0 0 30px rgba(1, 205, 254, 0.2),
+    inset 0 0 30px rgba(255, 113, 206, 0.1);
+}
+
 /* Responsive Typography */
 @media (max-width: 768px) {
   .neon-button {
@@ -218,5 +475,15 @@ body::after {
   
   .neon-card {
     padding: 16px;
+  }
+  
+  .chromatic-text::before,
+  .chromatic-text::after {
+    display: none;
+  }
+  
+  .glitch-text::before,
+  .glitch-text::after {
+    display: none;
   }
 }

@@ -1,0 +1,2 @@
+import{j as e}from"./index-76afb0b9.js";import{m as s}from"./animations-65a2e7d1.js";const i=({size:t="md",color:r="neon-cyan"})=>{const n={sm:"w-4 h-4",md:"w-8 h-8",lg:"w-12 h-12"};return e.jsx("div",{className:"flex items-center justify-center",children:e.jsx(s.div,{className:`${n[t]} border-2 border-transparent border-t-current rounded-full`,style:{borderTopColor:`var(--${r})`,filter:`drop-shadow(0 0 10px var(--${r}))`},animate:{rotate:360},transition:{duration:1,repeat:1/0,ease:"linear"}})})};export{i as L};
+//# sourceMappingURL=LoadingSpinner-e090c468.js.map

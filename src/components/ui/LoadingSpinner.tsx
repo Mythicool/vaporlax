@@ -8,12 +8,7 @@ const LoadingSpinner = ({ size = 'md', color = 'neon-cyan' }: LoadingSpinnerProp
     lg: 'w-12 h-12',
   }
 
-  const colorClasses = {
-    'neon-cyan': 'border-neon-cyan',
-    'neon-pink': 'border-neon-pink',
-    'neon-purple': 'border-neon-purple',
-    'neon-teal': 'border-neon-teal',
-  }
+
 
   return (
     <div className="flex items-center justify-center">

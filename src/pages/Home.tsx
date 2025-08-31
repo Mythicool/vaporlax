@@ -6,12 +6,9 @@ import Hero from '@/components/ui/Hero'
 import ProductGrid from '@/components/ecommerce/ProductGrid'
 import { Product } from '@/types'
 import { getFeaturedProducts } from '@/lib/api'
-import { useCartStore } from '@/lib/store'
-
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([])
   const [loading, setLoading] = useState(true)
-  const addToCart = useCartStore((state) => state.addToCart)
 
   useEffect(() => {
     const loadFeaturedProducts = async () => {

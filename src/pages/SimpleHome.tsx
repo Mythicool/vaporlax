@@ -2,6 +2,11 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Product } from '@/types'
 import { getFeaturedProducts } from '@/lib/api'
+import TestimonialsSection from '@/components/ui/TestimonialsSection'
+import FAQSection from '@/components/ui/FAQSection'
+import NewsletterSignup from '@/components/ui/NewsletterSignup'
+import PromotionsSection from '@/components/ui/PromotionsSection'
+import VapeQuiz from '@/components/ui/VapeQuiz'
 
 const SimpleHome = () => {
   const [featuredProducts, setFeaturedProducts] = useState<Product[]>([])
@@ -153,6 +158,127 @@ const SimpleHome = () => {
           )}
         </div>
       </section>
+
+      {/* Blog Preview Section */}
+      <section className="py-20 bg-vapor-black relative overflow-hidden">
+        <div className="absolute inset-0 floating-particles opacity-15"></div>
+        <div className="max-w-7xl mx-auto px-4 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="font-orbitron font-bold text-4xl md:text-5xl mb-4">
+              <span className="holographic">Vapor</span> <span className="chromatic-text" data-text="Chronicles">Chronicles</span>
+            </h2>
+            <p className="font-vt323 text-xl text-gray-400 mb-8">
+              Dive into the digital realm of vaping knowledge
+            </p>
+            <Link to="/blog">
+              <button className="neon-button px-8 py-4 text-lg font-bold transform hover:scale-105 transition-all duration-300">
+                EXPLORE ALL ARTICLES
+              </button>
+            </Link>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="product-card-enhanced group">
+              <div className="aspect-video bg-gradient-to-br from-neon-cyan/20 to-neon-pink/20 mb-4 rounded-lg overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop"
+                  alt="Disposable Vapes Guide"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-vapor-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="px-3 py-1 bg-neon-cyan/20 text-neon-cyan rounded-full text-sm font-vt323">GUIDE</span>
+                  <span className="text-gray-400 font-vt323 text-sm">8 min read</span>
+                </div>
+                <h3 className="font-orbitron font-bold text-white text-xl mb-3 group-hover:text-neon-cyan transition-colors duration-300">
+                  Ultimate Guide to Disposable Vapes
+                </h3>
+                <p className="text-gray-400 font-vt323 text-lg mb-4">
+                  Everything you need to know about choosing the perfect disposable vape...
+                </p>
+                <Link to="/blog/ultimate-guide-disposable-vapes-2024">
+                  <button className="neon-button-small px-4 py-2 text-sm font-bold">
+                    READ MORE
+                  </button>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="product-card-enhanced group">
+              <div className="aspect-video bg-gradient-to-br from-neon-pink/20 to-neon-purple/20 mb-4 rounded-lg overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+                  alt="Vaping Etiquette"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-vapor-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="px-3 py-1 bg-neon-pink/20 text-neon-pink rounded-full text-sm font-vt323">CULTURE</span>
+                  <span className="text-gray-400 font-vt323 text-sm">6 min read</span>
+                </div>
+                <h3 className="font-orbitron font-bold text-white text-xl mb-3 group-hover:text-neon-pink transition-colors duration-300">
+                  Vaping Etiquette Guide
+                </h3>
+                <p className="text-gray-400 font-vt323 text-lg mb-4">
+                  Master the art of respectful vaping in social situations...
+                </p>
+                <Link to="/blog/vaping-etiquette-social-situations">
+                  <button className="neon-button-small px-4 py-2 text-sm font-bold">
+                    READ MORE
+                  </button>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="product-card-enhanced group">
+              <div className="aspect-video bg-gradient-to-br from-neon-purple/20 to-neon-teal/20 mb-4 rounded-lg overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop"
+                  alt="Industry Trends"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-vapor-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="px-3 py-1 bg-neon-purple/20 text-neon-purple rounded-full text-sm font-vt323">NEWS</span>
+                  <span className="text-gray-400 font-vt323 text-sm">9 min read</span>
+                </div>
+                <h3 className="font-orbitron font-bold text-white text-xl mb-3 group-hover:text-neon-purple transition-colors duration-300">
+                  Vaping Industry Trends 2024
+                </h3>
+                <p className="text-gray-400 font-vt323 text-lg mb-4">
+                  Explore the latest trends shaping the vaping industry...
+                </p>
+                <Link to="/blog/vaping-industry-trends-2024">
+                  <button className="neon-button-small px-4 py-2 text-sm font-bold">
+                    READ MORE
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Exclusive Deals */}
+      <PromotionsSection />
+
+      {/* Interactive Quiz */}
+      <VapeQuiz />
+
+      {/* Customer Testimonials */}
+      <TestimonialsSection />
+
+      {/* FAQ Section */}
+      <FAQSection />
+
+      {/* Newsletter Signup */}
+      <NewsletterSignup />
 
       {/* Enhanced Footer */}
       <footer className="bg-vapor-black border-t border-neon-cyan/30 py-12 relative overflow-hidden">

@@ -189,11 +189,11 @@ const SimpleProducts = () => {
                   {/* Stock Status */}
                   <div className="mb-6">
                     <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-orbitron font-bold ${
-                      (product.stock && product.stock > 0) || product.inStock
+                      product.inStock
                         ? 'bg-neon-teal/20 text-neon-teal border border-neon-teal/30'
                         : 'bg-red-500/20 text-red-400 border border-red-400/30'
                     }`}>
-                      {(product.stock && product.stock > 0) || product.inStock ? '✓ IN STOCK' : '✗ OUT OF STOCK'}
+                      {product.inStock ? '✓ IN STOCK' : '✗ OUT OF STOCK'}
                     </span>
                   </div>
 

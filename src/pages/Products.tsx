@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Search, Filter, X } from 'lucide-react'
+import { Search, Filter } from 'lucide-react'
 import ProductGrid from '@/components/ecommerce/ProductGrid'
-import { Product } from '@/types'
 import { getProducts } from '@/lib/api'
 import { useProductStore } from '@/lib/store'
 

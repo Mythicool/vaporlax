@@ -168,3 +168,40 @@ export interface UIStore {
   setMobileMenuOpen: (isOpen: boolean) => void;
   setLoading: (isLoading: boolean) => void;
 }
+
+// Blog Types
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  author: string;
+  publishedAt: Date;
+  updatedAt: Date;
+  category: string;
+  tags: string[];
+  image: string;
+  readTime: number;
+  featured: boolean;
+}
+
+export interface BlogCategory {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  color: string;
+}
+
+export interface BlogAuthor {
+  id: string;
+  name: string;
+  bio: string;
+  avatar: string;
+  social: {
+    twitter?: string;
+    instagram?: string;
+    linkedin?: string;
+  };
+}

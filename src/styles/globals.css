@@ -487,3 +487,127 @@ body::after {
     display: none;
   }
 }
+
+/* Blog-specific styles */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Enhanced prose styling for blog content */
+.prose h1 {
+  @apply font-orbitron font-bold text-4xl sm:text-5xl mb-8 mt-12 first:mt-0;
+}
+
+.prose h2 {
+  @apply font-orbitron font-bold text-2xl sm:text-3xl mb-6 mt-10 text-neon-cyan;
+}
+
+.prose h3 {
+  @apply font-orbitron font-bold text-xl sm:text-2xl mb-4 mt-8 text-neon-pink;
+}
+
+.prose p {
+  @apply font-vt323 text-lg text-gray-300 mb-4 leading-relaxed;
+}
+
+.prose ul {
+  @apply mb-6;
+}
+
+.prose li {
+  @apply font-vt323 text-lg text-gray-300 mb-2 ml-6;
+}
+
+/* Newsletter signup enhancement */
+.newsletter-glow {
+  box-shadow: 
+    0 0 20px rgba(1, 205, 254, 0.3),
+    0 0 40px rgba(1, 205, 254, 0.2),
+    inset 0 0 20px rgba(1, 205, 254, 0.1);
+}
+
+/* Additional neon color for yellow */
+.neon-text-yellow {
+  color: #ffff00;
+  text-shadow: 
+    0 0 5px #ffff00,
+    0 0 10px #ffff00,
+    0 0 15px #ffff00;
+}
+
+.text-neon-yellow {
+  color: #ffff00;
+}
+
+.bg-neon-yellow {
+  background-color: #ffff00;
+}
+
+.border-neon-yellow {
+  border-color: #ffff00;
+}
+
+/* Blog card hover effects */
+.blog-card-hover {
+  transition: all 0.3s ease;
+}
+
+.blog-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 15px 30px rgba(255, 113, 206, 0.2),
+    0 0 20px rgba(1, 205, 254, 0.1);
+}
+
+/* Notification animations */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.5s ease-out forwards;
+}
+
+/* Enhanced glow effects for special elements */
+.mega-glow {
+  box-shadow: 
+    0 0 30px rgba(1, 205, 254, 0.4),
+    0 0 60px rgba(255, 113, 206, 0.3),
+    0 0 90px rgba(185, 103, 255, 0.2),
+    inset 0 0 30px rgba(1, 205, 254, 0.1);
+}
+
+/* Pulsing elements */
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    box-shadow: 
+      0 0 20px rgba(1, 205, 254, 0.3),
+      0 0 40px rgba(1, 205, 254, 0.2);
+  }
+  to {
+    box-shadow: 
+      0 0 30px rgba(255, 113, 206, 0.4),
+      0 0 60px rgba(255, 113, 206, 0.3);
+  }
+}

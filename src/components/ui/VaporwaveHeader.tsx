@@ -8,8 +8,9 @@ const VaporwaveHeader = () => {
   const navItems = [
     { path: '/', label: 'HOME', color: 'neon-cyan' },
     { path: '/products', label: 'PRODUCTS', color: 'neon-pink' },
-    { path: '/about', label: 'ABOUT', color: 'neon-purple' },
-    { path: '/contact', label: 'CONTACT', color: 'neon-teal' },
+    { path: '/blog', label: 'BLOG', color: 'neon-purple' },
+    { path: '/about', label: 'ABOUT', color: 'neon-teal' },
+    { path: '/contact', label: 'CONTACT', color: 'neon-yellow' },
   ]
 
   const isActive = (path: string) => location.pathname === path

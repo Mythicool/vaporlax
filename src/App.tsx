@@ -8,9 +8,13 @@ const ProductDetail = lazy(() => import('./pages/ProductDetail'))
 const Cart = lazy(() => import('./pages/Cart'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
+const Blog = lazy(() => import('./pages/Blog'))
+const BlogPost = lazy(() => import('./pages/BlogPost'))
 
 import VaporwaveLoader from './components/ui/VaporwaveLoader'
 import VaporwaveBackground from './components/ui/VaporwaveBackground'
+import LiveChatWidget from './components/ui/LiveChatWidget'
+import FloatingNotifications from './components/ui/FloatingNotifications'
 
 // Enhanced loading component with vaporwave effects
 const VaporwaveLoadingScreen = () => (
@@ -35,8 +39,16 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </Suspense>
+        
+        {/* Live Chat Widget - Available on all pages */}
+        <LiveChatWidget />
+        
+        {/* Floating Notifications */}
+        <FloatingNotifications />
       </div>
     </div>
   )

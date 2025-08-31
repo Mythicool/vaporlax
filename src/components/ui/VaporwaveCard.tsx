@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { ReactNode, CSSProperties } from 'react'
 
 interface VaporwaveCardProps {
   children: ReactNode
@@ -6,6 +6,7 @@ interface VaporwaveCardProps {
   hover?: boolean
   glow?: boolean
   animated?: boolean
+  style?: CSSProperties
 }
 
 const VaporwaveCard = ({
@@ -13,7 +14,8 @@ const VaporwaveCard = ({
   className = '',
   hover = true,
   glow = false,
-  animated = false
+  animated = false,
+  style
 }: VaporwaveCardProps) => {
   const baseClasses = `
     relative bg-vapor-dark-gray/90 backdrop-blur-md
@@ -30,13 +32,16 @@ const VaporwaveCard = ({
   const animatedClasses = animated ? 'animate-float' : ''
 
   return (
-    <div className={`
-      ${baseClasses}
-      ${hoverClasses}
-      ${glowClasses}
-      ${animatedClasses}
-      ${className}
-    `}>
+    <div 
+      className={`
+        ${baseClasses}
+        ${hoverClasses}
+        ${glowClasses}
+        ${animatedClasses}
+        ${className}
+      `}
+      style={style}
+    >
       {/* Animated border gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-neon-cyan via-neon-pink to-neon-purple opacity-0 hover:opacity-20 transition-opacity duration-500 pointer-events-none"></div>
       

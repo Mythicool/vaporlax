@@ -15,6 +15,7 @@ const VaporwaveFooter = () => {
             <h4 className="font-orbitron font-bold text-neon-pink mb-3">QUICK LINKS</h4>
             <div className="space-y-2">
               <Link to="/products" className="block text-gray-400 hover:text-neon-cyan transition-colors font-vt323">Products</Link>
+              <Link to="/blog" className="block text-gray-400 hover:text-neon-cyan transition-colors font-vt323">Blog</Link>
               <Link to="/about" className="block text-gray-400 hover:text-neon-cyan transition-colors font-vt323">About Us</Link>
               <Link to="/contact" className="block text-gray-400 hover:text-neon-cyan transition-colors font-vt323">Contact</Link>
             </div>
